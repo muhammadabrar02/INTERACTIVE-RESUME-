@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume-MILESTONE 1</title>
+    <link rel="stylesheet" href="styles/styles.css"/> <!-- Absolute path from root -->
+</head>
+<body>
+    <div class="resume-container">
+        <section class="personal-info">
+            <img src="assets/profile.jpg" alt="Profile Picture" id="profile-pic"> <!-- Ensure path is correct -->
+
+            <h1 id="name">Muhammad Abrar</h1>
+            <p id="contact">Email: abrarsolangi2002@gmail.com| Phone: +92 3333547284</p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p>BS Software Engineering - Sindh Madressatul Islam University Karachi</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul id="skills-list">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Next Js</li>
+                <li>Tailwind</li>
+                <li>HTML & CSS</li>
+            </ul>
+            <button id="toggle-skills">Toggle Skills</button>
+        </section>
+
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <p>UX /UI DESIGNER-FRONTEND DEVELOPER INTERN - Softcodix (2023)</p>
+            <p>Freelance Project Work - Various Clients</p>
+        </section>
+        <!-- New Projects Section -->
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Spotify Clone</h3>
+                <p>A clone of Spotify created using React and Redux, featuring a music player and playlist management.</p>
+            </div>
+            <div class="project-item">
+                <h3>Interactive Resume</h3>
+                <p>An interactive resume built with HTML, CSS, and TypeScript to showcase skills and experiences dynamically.</p>
+            </div>
+        </section>
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Completed a full-stack web development</li>
+                <li>Completed UX/UI Design.</li>
+                <li>Received a certificate of excellence for outstanding performance in internship at Softcodix.</li>
+            </ul>
+        </section>
+    </div>
+    <script src="/src/script.js"></script> <!-- Absolute path from root -->
+</body>
+</html>
